@@ -1,0 +1,23 @@
+.Navbar {
+  display: flex;
+  flex-direction: column;
+  gap: 20px 0;
+  padding: 10px 20px;
+}
+@media screen and (min-width: 570px) {
+  .Navbar {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+}
+.Navbar ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 0;
+}
+.Navbar ul li {
+  margin-right: 10px;
+}

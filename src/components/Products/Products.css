@@ -1,0 +1,8 @@
+.Products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  margin: 20px 0;
+  padding: 0 10px;
+  gap: 20px;
+}

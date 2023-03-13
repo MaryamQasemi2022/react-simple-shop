@@ -1,0 +1,25 @@
+.blog {
+  padding: 10px 40px;
+}
+.blog .pagination {
+  display: flex;
+  gap: 0 10px;
+  justify-content: center;
+  margin: 10px 0;
+}
+.blog .pagination button {
+  font-size: 1.2rem;
+}
+.blog li {
+  animation: fadeIn 1s;
+  -webkit-animation: fadeIn 1s;
+}
+
+@keyframes fadeIn {
+  0% {
+    margin-left: -100%;
+  }
+  100% {
+    margin-left: 0;
+  }
+}

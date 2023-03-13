@@ -1,0 +1,25 @@
+.Header div.title {
+  border-top: 1px solid #999;
+  border-bottom: 1px solid #999;
+  padding: 10px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.Header div.title div {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.Header div.title div span {
+  width: 25px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #f7c04a;
+  color: white;
+}
